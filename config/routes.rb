@@ -1,6 +1,6 @@
 Firstapp::Application.routes.draw do
   resources :students
-
+  root :to => 'pages#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
